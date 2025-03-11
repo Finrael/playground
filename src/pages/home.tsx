@@ -6,14 +6,14 @@ const HomePage = (): React.JSX.Element=>{
     return(
         <div className={classNames('index-main')}>
             <header>
-            Home Page
+            Welcome to Playground a learning site for developers and people interested in picking up coding
             </header>
             <div>
             <p>
-                Playground is meant to be a simple repo for practicing any number of topics, currently the topics are:
+                Select your learning route
             </p>
             <ul>
-                <li>Typescript</li>
+                <li><a href='/forms'>Forms</a></li>
                 <li><a href='/array'>Array Algorithms</a> </li>
             </ul>
 
