@@ -42,9 +42,7 @@ const FormsIndex=():React.ReactElement=>{
     const manageSelect=(e:any)=>{
         setCurrentTopic(Number(e.target.value))
     }
-    // React.useEffect(()=>{
-    //     console.log('current', currentTopic)
-    // },[currentTopic])
+    
     return(
         <div>
             <div>
