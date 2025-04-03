@@ -13,6 +13,7 @@ const HomePage = (): React.JSX.Element=>{
                 Select your learning route
             </p>
             <ul>
+                <li><a href='/tspages'>Typescript</a></li>
                 <li><a href='/forms'>Forms</a></li>
                 <li><a href='/array'>Array Algorithms</a> </li>
             </ul>
