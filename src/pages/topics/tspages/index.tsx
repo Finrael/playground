@@ -1,6 +1,6 @@
 import React from 'react'
 import TsTypesExample from './tsTypesExample'
-
+import './styles.scss'
 const functionToShow=(selected:number):React.ReactNode=>{
     switch (selected) {
       case 1:
@@ -16,7 +16,6 @@ const TypescriptPagesIndex = ():React.ReactElement=>{
         setCurrentState(Number(e.target.value))
     }
 
-    React.useEffect(()=>{console.log('current', currentState)},[currentState])
     return(
         <div>
             <p>

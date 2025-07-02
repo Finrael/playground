@@ -16,6 +16,9 @@ const HomePage = (): React.JSX.Element=>{
                 <li><a href='/tspages'>Typescript</a></li>
                 <li><a href='/forms'>Forms</a></li>
                 <li><a href='/array'>Array Algorithms</a> </li>
+                <li><a href='/recursion'>Recursion</a> </li>
+                <li><a href='/string'>String</a> </li>
+                <li><a href='/inventory'>Inventory</a> </li>
             </ul>
 
             </div>

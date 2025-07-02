@@ -1,6 +1,6 @@
 import React, {useEffect, useState, FC} from "react";
 import classNames from "classnames";
-
+import './styles.scss';
 // types for the array of questions
 type questionsKeyTypes = {
     text:string,
@@ -132,7 +132,7 @@ const questionKeyArr: questionsKeyTypes[] = [
  */
 const showTypesFunction = (arr:objectForBasicTypes[]): React.ReactElement=>{
     return(
-        <div>
+        <div className={classNames('mainTsPages')}>
             <table>
             <tr className={classNames('ts-types-table')}>
                             <th>Types:</th>
