@@ -2,7 +2,11 @@ import React, {ReactElement,FC, JSX} from 'react'
 import {Exercise as Ex1} from './ex1'
 import ArrEx2 from './ex2'
 import ArrEx3 from './ext3'
+import ArrEx4 from './ext4'
 import Inter1 from '../input/input1-ts'
+import ArrEx5 from './ext5'
+import Ext6 from './ext6'
+import Ext7 from './ext7'
 import {default as InputYup} from '../input/input1-Yup'
 
 export type guideUnit= {
@@ -34,6 +38,21 @@ export const guideObject : guideType  ={
         text:'Input1 Yup',
         element:<InputYup/>
     },
-
+    {
+        text:'Arr 4',
+        element:<ArrEx4/>
+    },
+    {
+        text:'Arr 5',
+        element:<ArrEx5/>
+    },
+{
+        text:'Arr 6',
+        element:<Ext6/>
+    },
+    {
+        text:"Arr 7",
+        element:<Ext7/>
+    }
 ]
 }

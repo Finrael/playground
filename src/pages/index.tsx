@@ -10,6 +10,9 @@ import HomePage from './home';
 import ArrayIndexPage from './topics/arrayAlgos';
 import FormsIndex from './topics/forms/formsIndex';
 import TSIndex from './topics/tspages/index'
+import RecursionIndex from './topics/recursionAlgos';
+import StringAlgosIndex from './topics/stringAlgos/index'
+import InventoryIndex from './topics/inventory';
 
 import './styles.scss'
   
@@ -25,6 +28,9 @@ import './styles.scss'
                 <Route path='/tspages' element={<TSIndex/>}/>
                 <Route path='/array' element={<ArrayIndexPage/>}/>
                 <Route path='/forms' element={<FormsIndex/>}/>
+                <Route path='/recursion' element={<RecursionIndex/>}/>
+                <Route path='/string' element={<StringAlgosIndex/>}/>
+                <Route path='/inventory' element={<InventoryIndex/>}/>
             </Routes>
         </div>
     )
