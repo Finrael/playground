@@ -18,6 +18,7 @@ import "./styles.scss"
  const originOptions = [{label:"Kristie", id:0}, {label:"Supplier1", id:1}, {label:"Supplier2", id:2}]
  const label = { inputProps: { 'aria-label': 'Imperfect Item' } };
 const InputForm = ()=>{
+  
      const [value, setValue] = React.useState<number | null>(null);
     return (
       <div className="inputForm">

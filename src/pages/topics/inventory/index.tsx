@@ -5,6 +5,7 @@ const InventoryIndex = ()=>{
     const [input, setInput]=React.useState<boolean>(true)
     return(
         <div>
+          inventory index
           <InventoryHome/>
           
         </div>

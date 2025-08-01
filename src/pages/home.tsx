@@ -19,6 +19,7 @@ const HomePage = (): React.JSX.Element=>{
                 <li><a href='/recursion'>Recursion</a> </li>
                 <li><a href='/string'>String</a> </li>
                 <li><a href='/inventory'>Inventory</a> </li>
+                <li><a href='/higher'>Higher Components</a> </li>
             </ul>
 
             </div>
