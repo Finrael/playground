@@ -1,6 +1,7 @@
 import React from 'react'
 import AddressComponent from './adresssComponent';
 import {TextComponentWithHover, TextComponent} from './higherExample'
+import {HigherComponentWithHover} from './higherAdress'
 
 
 interface AddressBook{
@@ -17,10 +18,12 @@ const Higher =()=>{
     return(
         <div>
             higher
-            {/* {GenerateFunction({name:'Jose',lastName:"Martinez", age:36})} */}
             <AddressComponent name={'Jose'} lastName={'Martinez'} age={36}/>
             <TextComponentWithHover text="jose ovidio"/>
             <TextComponent text='martinez jasso' isHovered/>
+            <div>
+                <HigherComponentWithHover name='Jose' lastName='Martinez' age={36} />
+            </div>
         </div>
     )
 }
