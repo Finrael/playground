@@ -13,7 +13,7 @@ type TextComponentProps = {
 export const TextComponent = ({ text, isHovered }: Readonly<TextComponentProps>) => {
   return (
     <>
-      <p style={{ backgroundColor: isHovered ? "blue" : "red" }}>{text}</p>
+      <p style={{ backgroundColor: isHovered ? "gray" : "white" }}>{text}</p>
     </>
   );
 };
@@ -58,7 +58,7 @@ type InjectedProps = {
 //   };
 // }
 
-const withHover= <T, TextComponentProps>( WrappedComponent: ComponentType<T>)=>{
+const withHover= <T, >( WrappedComponent: ComponentType<T>)=>{
   return (props: Omit<T, keyof InjectedProps>)=>{
     const [isHovered, setHovered] = useState(false);
     const handleMouseEnter=()=>{

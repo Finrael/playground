@@ -9,10 +9,8 @@ const InventoryHome = ()=>{
         <>
         <p>
             Welcome to inventyory management
-            {/* <button onClick={()=>{setShowInput(!showInput)}}>To input</button> */}
         </p>
         <NavPanel/>
-        {/* {showInput ? <InputForm/> :<OutputForm/>} */}
         </>
     )
 }
