@@ -9,6 +9,7 @@ interface AddressBook{
     lastName:string,
     age:number
 }
+// function that encapsulates others to add patameters
 const Higher =()=>{
     const GenerateFunction: React.FC<AddressBook>= ({name, lastName, age})=>{
         return(
